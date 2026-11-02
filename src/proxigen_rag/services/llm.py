@@ -12,7 +12,7 @@ load_dotenv()
 
 
 @lru_cache(maxsize=1)
-def get_llm():
+def get_ollama_llm():
    return ChatOllama(
         model="qwen3:4b",
         temperature=0,
@@ -40,20 +40,3 @@ def get_heavy_llm():
 
 
 
-# @lru_cache(maxsize=1)
-# def get_groq_llm():
-#     return ChatOpenAI(
-#         model="gpt-oss-120b",
-#         api_key=os.getenv("CEREBRAS_API_KEY"),
-#         base_url="https://api.cerebras.ai/v1",
-#         temperature=0,
-#     )
-
-# @lru_cache(maxsize=1)
-# def get_heavy_llm():
-#     return ChatOpenAI(
-#         model="gpt-oss-120b",
-#         api_key=os.getenv("CEREBRAS_API_KEY"),
-#         base_url="https://api.cerebras.ai/v1",
-#         temperature=0,
-#     )

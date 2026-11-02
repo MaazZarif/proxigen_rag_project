@@ -1,0 +1,42 @@
+[
+  {
+    "text": "Skip to content",
+    "url": "https://proxigen.net/contact-us/#content",
+    "type": "markdown_link"
+  },
+  {
+    "text": "Email us",
+    "url": "mailto:info@proxigen.net",
+    "type": "markdown_link"
+  },
+  {
+    "text": "Chat on WhatsApp",
+    "url": "https://wa.me/4915776503645?text=Hello%20Proxigen%2C%20I%20have%20a%20question%20about%20concrete%20monitoring.",
+    "type": "markdown_link"
+  },
+  {
+    "text": "Send a message",
+    "url": "https://proxigen.net/contact-us/#contact-form",
+    "type": "markdown_link"
+  },
+  {
+    "text": "info@proxigen.net",
+    "url": "mailto:info@proxigen.net",
+    "type": "markdown_link"
+  },
+  {
+    "text": "Get directions",
+    "url": "https://www.google.com/maps/search/?api=1&query=Meydan%20Grandstand%2C%20Meydan%20Road%2C%20Nad%20Al%20Sheba%2C%20Dubai%2C%20UAE",
+    "type": "markdown_link"
+  },
+  {
+    "text": "More about us",
+    "url": "https://proxigen.net/about/",
+    "type": "markdown_link"
+  },
+  {
+    "text": "See our sensors",
+    "url": "https://proxigen.net/products/",
+    "type": "markdown_link"
+  }
+]

@@ -17,7 +17,6 @@ async def retrieval_node(state: RAGState) -> dict:
     total_start = perf_counter()
 
     try:
-        # 1. Prepare query
         start = perf_counter()
 
         search_query = (
@@ -33,7 +32,6 @@ async def retrieval_node(state: RAGState) -> dict:
             perf_counter() - start,
         )
 
-        # 2. Initialize Qdrant client
         start = perf_counter()
         client = get_qdrant_client()
 
@@ -42,7 +40,6 @@ async def retrieval_node(state: RAGState) -> dict:
             perf_counter() - start,
         )
 
-        # 3. Dense embedding
         start = perf_counter()
 
         dense_model = get_embedding_model()
@@ -53,7 +50,6 @@ async def retrieval_node(state: RAGState) -> dict:
             perf_counter() - start,
         )
 
-        # 4. Sparse embedding
         start = perf_counter()
 
         sparse_model = get_sparse_embedding_model()
@@ -64,7 +60,6 @@ async def retrieval_node(state: RAGState) -> dict:
             perf_counter() - start,
         )
 
-        # 5. Qdrant hybrid search
         start = perf_counter()
 
         response = await client.query_points(
@@ -94,7 +89,6 @@ async def retrieval_node(state: RAGState) -> dict:
             perf_counter() - start,
         )
 
-        # 6. Convert results into Documents
         start = perf_counter()
 
         documents = []

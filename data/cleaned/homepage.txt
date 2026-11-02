@@ -1,0 +1,127 @@
+# Proxigen Concrete Monitoring System
+
+Proxigen provides concrete temperature monitoring, maturity data, and estimated in-place strength insights through embedded sensors, a mobile app, and cloud-based dashboards. The system helps construction teams monitor concrete curing and make informed decisions using recorded data.
+
+The Proxigen system combines embedded concrete sensors, wireless data transmission, a mobile app, and cloud software. It supports continuous monitoring throughout the curing process.
+
+## The Concrete Monitoring System
+
+### Sensors
+
+Proxigen CTM01 and CTM02 sensors record temperature from inside concrete. CTM01 uses one probe, while CTM02 uses two probes to measure temperatures at different depths.
+
+### Mobile App
+
+The Proxigen app is available for iOS and Android. Users can connect to sensors, view readings, and synchronize stored data with the cloud.
+
+### Proxigen Cloud
+
+Proxigen Cloud provides access to monitoring data, temperature and strength trends, historical records, and curing reports.
+
+## Features and Capabilities
+
+### Concrete Temperature Monitoring
+
+Sensors record internal concrete temperatures throughout curing. These measurements help teams monitor curing conditions and identify potential thermal risks.
+
+### Strength and Maturity
+
+Temperature history can be used in maturity-based calculations to estimate in-place concrete strength. These estimates can support construction planning alongside the project's approved testing and engineering procedures.
+
+### Live Monitoring and Historical Data
+
+Teams can view temperature and estimated strength trends, compare concrete pours, and review historical records through cloud dashboards.
+
+### Automated Reporting
+
+Digital curing records support quality control, project documentation, and handover requirements.
+
+### Multi-Site Monitoring
+
+The platform supports monitoring across multiple concrete elements and construction sites.
+
+### Data Storage and Synchronization
+
+Sensors record readings every 15 minutes and store approximately six months of readings on the device. When the app reconnects, stored readings can be synchronized with Proxigen Cloud.
+
+## Construction Applications
+
+### Formwork Removal
+
+Temperature records and maturity-based strength estimates can support formwork-removal planning. Decisions must follow the project's approved engineering criteria and procedures.
+
+### Post-Tensioning
+
+Estimated in-place strength data can help engineers plan post-tensioning operations in accordance with project requirements.
+
+### Thermal Control
+
+Monitoring internal concrete temperatures helps teams assess thermal conditions, particularly during hot weather and in large concrete pours.
+
+### Quality Records
+
+Recorded temperature and strength data can support quality assurance, project documentation, and handover.
+
+## How the System Works
+
+1. **Switch on:** Hold the sensor button for three seconds. One long LED flash confirms that the device is on.
+2. **Connect:** Scan the sensor's QR code using the Proxigen app.
+3. **Install:** Position the probes in the concrete at the required measurement depths.
+4. **Monitor:** View readings, synchronize data, share information with the team, and access reports.
+
+## Proxigen App
+
+The Proxigen app is available for iOS and Android.
+
+- Apple App Store: https://apps.apple.com/us/app/proxigen/id6748585576
+- Google Play: https://play.google.com/store/apps/details?id=com.proxigen.app
+
+## Why Choose Proxigen?
+
+- **Purpose-built for concrete:** Hardware and software designed for concrete curing monitoring.
+- **Integrated system:** Sensors, mobile app, and cloud platform from one provider.
+- **Continuous records:** Recorded measurements provide a history of conditions during each pour.
+- **Scalable monitoring:** Supports projects ranging from individual slabs to multiple construction sites.
+
+## Regional Coverage
+
+Proxigen is based in Dubai and supports construction projects across Saudi Arabia, the United Arab Emirates, Qatar, Bahrain, Kuwait, and Oman.
+
+Examples of locations served include:
+
+- **Saudi Arabia:** Riyadh, Jeddah, Dammam
+- **United Arab Emirates:** Dubai, Abu Dhabi, Sharjah
+- **Qatar:** Doha, Lusail
+- **Bahrain:** Manama
+- **Kuwait:** Kuwait City
+- **Oman:** Muscat
+
+Proxigen sensors record internal concrete temperature every 15 minutes, helping regional construction teams monitor curing conditions and assess thermal risks.
+
+## Frequently Asked Questions
+
+### What is a concrete monitoring system?
+
+A concrete monitoring system uses sensors placed in concrete to record temperature during curing. The Proxigen app and cloud platform use these readings to provide maturity information and estimated in-place strength, helping teams assess concrete development without relying exclusively on cube test results.
+
+### Does Proxigen supply concrete sensors in Saudi Arabia, the UAE, and Qatar?
+
+Proxigen supports construction projects across Saudi Arabia, the United Arab Emirates, Qatar, Bahrain, Kuwait, and Oman from its Dubai office. Customers can contact Proxigen to discuss project requirements and request a quote.
+
+### How does concrete maturity monitoring help in hot weather?
+
+High temperatures affect early strength development and can increase thermal-cracking risks, particularly in large pours. Monitoring internal temperatures helps teams track curing conditions and temperature differences rather than relying only on assumptions about site conditions.
+
+### What is the difference between CTM01 and CTM02?
+
+CTM01 has one probe, available in 30 cm or 3 m lengths, plus a built-in body sensor. It is suited to applications such as slabs, columns, walls, and precast elements.
+
+CTM02 has two probes, with standard lengths of 2 m and 3 m and custom lengths available on request. It measures temperatures at two depths, helping teams monitor the temperature difference between the top and bottom of thicker pours.
+
+### How do sensor readings reach the cloud?
+
+Sensors record readings every 15 minutes and store approximately six months of data on the device. The Proxigen app connects to the sensor over 2.4 GHz RF and synchronizes stored readings with Proxigen Cloud.
+
+### Which industries use Proxigen concrete sensors?
+
+Potential applications include construction and infrastructure, industrial construction, manufacturing, precast concrete, ready-mix operations, warehousing, commercial facilities, and energy and utilities infrastructure.

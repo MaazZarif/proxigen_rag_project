@@ -1,0 +1,99 @@
+# Wireless Concrete Temperature Loggers
+
+Sensors that go into the pour and record every 15 minutes, from the first hour to the day you strip the forms. Switch on, scan the QR code, and the first temperature appears in the Proxigen app.
+
+- Wireless communication: 2.4 GHz RF
+- Reading interval: Every 15 minutes
+- On-device storage: Approximately 6 months
+
+## Choose Your Sensor
+
+Both use the same app, cloud and one-button setup. The difference is how many points you measure.
+
+### CTM01
+
+One probe for everyday pours: slabs, columns, walls and precast elements.
+
+- 1 probe: 30 cm or 3 m
+- Built-in body sensor and probe sensor
+- 2.4 GHz RF to the Proxigen app
+- About 6 months of readings on the device
+
+### CTM02
+
+Two probes, top and bottom, to follow the temperature difference across thick pours.
+
+- 2 probes: 2 m and 3 m as standard
+- Top-to-bottom temperature difference
+- 2.4 GHz RF to the Proxigen app
+- About 6 months of readings on the device
+
+## The Concrete Maturity Method
+
+### Step 1: Pour
+
+Probes go in before the concrete. Tie the probe to the rebar at the point you care about, usually the core of the section. Switch the sensor on and it records a reading every 15 minutes.
+
+### Step 2: Heat
+
+Cement reacts with water and releases heat, usually peaking within the first day. With CTM02, you see the top and the bottom of the pour side by side.
+
+### Step 3: Strength
+
+The maturity method turns the temperature history into an estimate of in-place strength, so you depend less on waiting for cube results.
+
+### Step 4: Ready
+
+When the estimated strength reaches your target, plan formwork removal with the full temperature record to back the decision.
+
+Illustrative curing curve. Real values depend on your mix and site conditions.
+
+## Which Sensor Fits Your Pour?
+
+| Specification | CTM01 | CTM02 |
+|---|---|---|
+| Probes | 1 | 2 |
+| Standard probe length | 30 cm or 3 m | 2 m and 3 m |
+| Custom probe lengths | On request | On request |
+| Built-in body sensor | Yes | Yes |
+| Top-to-bottom difference | No | Yes |
+| Wireless | 2.4 GHz RF | 2.4 GHz RF |
+| Reading interval | Every 15 minutes | Every 15 minutes |
+| On-device storage | About 6 months | About 6 months |
+| Battery | 3.0 V | 3.0 V |
+
+## Brochure and Technical Guide
+
+Two free PDFs for your team and your consultant. Both cover CTM01 and CTM02.
+
+### Product Brochure
+
+- Length: 7 pages
+- File size: 1.9 MB
+- Content: The CTM01 and CTM02 sensors, how monitoring works from the pour to your phone, and the Proxigen app and cloud.
+
+### Setup and Technical Guide
+
+- Length: 10 pages
+- File size: 1.5 MB
+- Content: Device components, technical specifications, installation in concrete or on formwork, app setup and cloud dashboard.
+
+## Same Setup for Both Sensors
+
+No pairing menus, no settings to change.
+
+### Step 1: Hold for 3 seconds
+
+Press and hold the button. One long flash confirms the device is on.
+
+### Step 2: Scan the QR code
+
+Open the Proxigen app and scan the QR code on the device.
+
+### Step 3: See the first reading
+
+The app connects on its own and shows the first temperature.
+
+## No Reading Gets Lost
+
+Both sensors record a reading every 15 minutes and keep about 6 months of data in their own memory. When the app connects, every stored reading is sent to Proxigen Cloud, so gaps between site visits never become gaps in your records.

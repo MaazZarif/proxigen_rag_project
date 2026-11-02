@@ -1,0 +1,85 @@
+# Concrete Monitoring Solution
+
+Live curing data from inside every pour, on your phone and in the cloud.
+
+### Wireless Sensors
+Cast into the concrete or fixed to the formwork.
+
+### Mobile App
+Live readings and reports on site.
+
+### Cloud Dashboard
+Every project, section and team in one place.
+
+---
+
+# Choose Your Model
+
+## CTM01 — One Probe
+- One temperature probe in the concrete.
+- Probe cable 30 cm or 3 m, or custom length.
+- Built-in body sensor.
+
+## CTM02 — Two Probes
+- One cable that splits into two probes.
+- Top and bottom probes track the temperature differential.
+- Probe lengths 2 m + 3 m, or custom length.
+- Built-in body sensor.
+
+---
+
+# From the Pour to Your Phone
+
+Our sensors track the temperature of curing concrete and turn it into maturity data, helping you plan formwork stripping, loading and the next pour using real curing data instead of fixed waiting times.
+
+### Installation
+Zip-tie the IP67 unit to the rebar and cast it in, no deeper than 7.6 cm (3 in), or mount it outside on the formwork with the probe in the pour.
+
+### Data Logging and Connectivity
+- Logs readings every 15 minutes.
+- Battery life of up to 6 months.
+- Syncs to the Proxigen app over a 2.4 GHz RF link.
+
+### Live Monitoring and Reports
+Follow curing in the Proxigen mobile app and Cloud dashboard. Download Excel or PDF reports.
+
+---
+
+# Key Specifications
+
+- **Wireless connectivity:** 2.4 GHz RF
+- **Logging interval:** 15 minutes
+- **Battery life:** Up to 6 months
+- **Protection rating:** IP67
+- **Probe cable lengths:** 30 cm / 3 m for CTM01; 2 m + 3 m for CTM02; custom lengths available
+- **Standard:** Supports the maturity method per ASTM C1074
+
+---
+
+# Mobile App and Cloud Features
+
+- **Live monitoring:** View probe and device temperatures, maturity and strength.
+- **Cloud dashboard:** View projects, sections and sensors in one place.
+- **Report sharing:** Share sensors and reports via WhatsApp or email.
+- **Excel and PDF reports:** Download reports for quality assurance and recordkeeping.
+- **Team management:** Organise projects and sections and add team members.
+
+---
+
+# Setup in 4 Steps
+
+### 1. Power On
+Hold the power button for 3 seconds until the LED flashes.
+
+### 2. Connect in the App
+Tap **Add Sensor** in the Proxigen app and scan the QR code.
+
+### 3. Install the Sensor
+Zip-tie it to the rebar, no deeper than 7.6 cm (3 in), or mount it on the formwork with the probe in the pour.
+
+### 4. Pour and Monitor
+Pour as normal and monitor curing, with readings logged every 15 minutes.
+
+For full setup and technical details, refer to the Proxigen Setup & Technical Guide.
+
+---

@@ -10,6 +10,5 @@ wheels/
 .venv
 .env
 evaluation/
-data/
 test.py
 test_graph.py

@@ -1,0 +1,108 @@
+# CTM02 Dual-Probe Concrete Logger
+
+Two probes, one device. Place one near the top of the pour and one near the bottom, and monitor the temperature difference across the section from your phone. Readings are recorded every 15 minutes.
+
+## Top, Bottom, and the Difference
+
+In thick pours, the core and the surface cure at different temperatures. CTM02 measures both so you can see the temperature difference.
+
+### Top probe
+
+Placed near the surface, where the concrete loses heat fastest.
+
+### Bottom probe
+
+Placed deeper in the section, where heat builds up during curing.
+
+### Body sensor
+
+Built into the housing and measures the temperature at the logger itself.
+
+### Temperature difference
+
+With both probes reporting, you can monitor the temperature difference between the top and bottom that matters for thermal cracking in thick sections.
+
+## The Concrete Maturity Method
+
+### Step 1: Pour
+
+Place the probes before the concrete is poured. Tie the probes to the rebar at the desired measurement points, usually the core of the section. Switch on the sensor. It records a reading every 15 minutes.
+
+### Step 2: Heat
+
+Cement reacts with water and releases heat, usually peaking within the first day. With CTM02, you can see the temperature readings from the top and bottom of the pour side by side.
+
+### Step 3: Strength
+
+The maturity method uses the temperature history to estimate in-place concrete strength, reducing reliance on waiting for cube test results alone.
+
+### Step 4: Readiness
+
+When estimated strength reaches the project's target, the temperature record can help support formwork-removal planning. Follow the project's approved engineering criteria and procedures.
+
+## Setup: On and Connected in Under a Minute
+
+One button and one scan. No pairing menus or settings to change.
+
+### Step 1: Switch on
+
+Press and hold the button for 3 seconds. One long flash of the LED confirms the device is on.
+
+### Step 2: Scan the QR code
+
+Open the Proxigen app and scan the QR code on the device.
+
+### Step 3: See the first reading
+
+The app connects automatically and shows the first temperature from the body and both probes.
+
+## No Reading Gets Lost
+
+CTM02 records temperature every 15 minutes and stores readings in its own memory, with capacity for about 6 months of readings. When the app connects, stored readings are transferred and saved in Proxigen Cloud.
+
+If you miss a site visit, the data remains on the device until you reconnect.
+
+- **Reading interval:** Every 15 minutes
+- **On-device storage:** About 6 months of readings
+- **Data synchronization:** Stored readings upload when the app connects
+
+## Technical Specifications
+
+| Specification | Details |
+|---|---|
+| Number of probes | 2 |
+| Probe lengths | 2 m and 3 m as standard; custom lengths on request |
+| Sensors | Two probe sensors and one built-in body sensor |
+| Differential measurement | Temperature difference between the two probes |
+| Wireless | 2.4 GHz RF |
+| Connection | Proxigen app on iOS and Android, with data synced to Proxigen Cloud |
+| Reading interval | Every 15 minutes |
+| On-device storage | About 6 months of readings; storage outlasts the battery |
+| Battery | 3.0 V |
+| Indicator | Single-colour LED; one long flash when switched on |
+| Power | Press and hold the button for 3 seconds |
+| Setup | Scan the device's QR code in the Proxigen app |
+
+Custom probe lengths are available on request. Contact Proxigen with the pour depth to discuss suitable probe lengths.
+
+## Brochure and Technical Guide
+
+Proxigen provides two PDFs covering CTM01 and CTM02.
+
+### Product Brochure
+
+**Length:** 7 pages  
+Describes the CTM01 and CTM02 sensors, monitoring from the pour to the phone, and the Proxigen app and cloud platform.
+
+Preserve the original Product Brochure download URL separately in the links JSON.
+
+### Setup and Technical Guide
+
+**Length:** 10 pages  
+Covers device components, technical specifications, installation in concrete or on formwork, app setup, and the cloud dashboard.
+
+Preserve the original Setup and Technical Guide download URL separately in the links JSON.
+
+## CTM01 Comparison
+
+CTM01 uses a single probe in 30 cm or 3 m lengths for everyday slabs and concrete elements.

@@ -9,6 +9,8 @@ from proxigen_rag.graph.state import RAGState
 logger = logging.getLogger(__name__)
 
 MODEL_NAME = "cross-encoder/ms-marco-MiniLM-L-6-v2"
+# MODEL_NAME = "BAAI/bge-reranker-v2-m3"
+
 TOP_K = 5
 
 reranker_model = CrossEncoder(

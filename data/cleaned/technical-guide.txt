@@ -1,0 +1,189 @@
+# Setup & Technical Guide
+
+Installation, app setup and technical specifications for Proxigen concrete monitoring sensors.
+
+Edition: October 2026
+
+**Website:** proxigen.net
+
+## Before You Begin
+
+This guide covers both Proxigen concrete monitoring sensors. CTM01 and CTM02 share the same unit, app and installation; they differ only in their probes.
+
+### CTM01
+
+One temperature probe in the concrete.
+
+### CTM02
+
+One cable that splits into two probes, placed at the top and bottom of the element.
+
+## Know Your Device
+
+### Parts of the Sensor Unit
+
+- **Cable gland:** Sealed exit for the probe cable.
+- **Probe cable:** Leads to the temperature probe(s).
+- **Mounting tab (top):** Slot for a zip tie or screw.
+- **Status LED:** Gives one long flash at power on.
+- **QR code:** Scanned in the app to add the sensor.
+- **Power button:** On the side. Hold for 3 seconds to switch on.
+- **Mounting tab (bottom):** Second fixing point.
+
+### Sensors
+
+| Sensor | Description |
+|---|---|
+| Probe sensor | Measures the temperature inside the concrete. CTM01 has one probe, CTM02 has two. |
+| Body sensor | Built into the unit on both models and measures the temperature at the device. |
+
+### Mounting Options
+
+**A: Cast into the concrete**
+
+Zip-tied to the rebar, maximum 7.6 cm (3 in) below the surface.
+
+**B: Mounted on the formwork**
+
+Screwed through the mounting tabs, with the probe in the pour.
+
+## Technical Specifications
+
+| Parameter | CTM01 | CTM02 |
+|---|---|---|
+| Probes | 1 | 2 (one cable, Y-splitter) |
+| Probe cable length | 30 cm or 3 m, custom on request | 2 m + 3 m, custom on request |
+| Probe sensor type | NTC | NTC |
+| Body sensor | Built-in | Built-in |
+| Temperature range | -25 °C to +85 °C | -25 °C to +85 °C |
+| Accuracy | ± 1 °C | ± 1 °C |
+| Logging interval | 15 minutes | 15 minutes |
+| Wireless | 2.4 GHz RF link to the Proxigen app | 2.4 GHz RF link to the Proxigen app |
+| Connection range | Stay within 5–10 m for a stable connection | Stay within 5–10 m for a stable connection |
+| Battery life | Up to 6 months | Up to 6 months |
+| Enclosure | IP67, sealed for casting into concrete | IP67, sealed for casting into concrete |
+| Mounting | Zip-tied to rebar (maximum 7.6 cm / 3 in deep) or fixed to formwork | Zip-tied to rebar (maximum 7.6 cm / 3 in deep) or fixed to formwork |
+| Data export | Excel and PDF via the app and Proxigen Cloud | Excel and PDF via the app and Proxigen Cloud |
+| Maturity method | Supports the maturity method per ASTM C1074 | Supports the maturity method per ASTM C1074 |
+| Compliance | RoHS | RoHS |
+
+## Switching the Sensor On
+
+### Power On
+
+1. Find the power button on the side of the unit.
+2. Press and hold it for 3 seconds.
+3. Release when the LED gives one long flash. The sensor is now on and logging.
+
+### LED Signal
+
+**One long flash:** The sensor has switched on.
+
+### Before Installation
+
+Switch the sensor on and add it in the Proxigen app before you fix it in place. You will need a smartphone with Bluetooth and Location switched on.
+
+### Good to Know
+
+Once switched on, the sensor logs every 15 minutes and runs for up to 6 months on its battery.
+
+## Installation: Cast into the Concrete
+
+Fix the unit directly to the reinforcement so it is cast into the pour. You need two zip ties for the unit and one small zip tie for the probe cable.
+
+### Select the Location
+
+Choose a clean, accessible rebar close to the top of the element, where you want to measure.
+
+**Surface maximum: 7.6 cm (3 in)**
+
+### Zip-Tie the Unit to the Rebar
+
+Hold the unit beside the rebar. Thread a zip tie through the slot in one mounting tab, wrap it around the rebar and tighten firmly. Use a second zip tie on the opposite tab.
+
+### Position the Probe
+
+Run the probe straight without pressing on the unit. Secure the cable gently to the rebar with a small zip tie so it is stable but not strained.
+
+**Maximum depth: 7.6 cm (3 in)**
+
+The unit must not be buried more than 7.6 cm (3 in) below the concrete surface, or the wireless connection to your phone may be lost.
+
+## Installation: Formwork Mounting and Probe Placement
+
+### Mount on the Formwork
+
+Fix the unit to the outside of the formwork with a screw through each mounting tab.
+
+1. Run the probe cable into the pour and fix the probe at the measuring point.
+2. Keep the cable clear of moving parts and the formwork joint.
+
+### CTM02: Placing Two Probes
+
+1. Fix one probe near the top of the element and the other near the bottom.
+2. Route both cables from the Y-splitter without pulling or kinking them.
+3. The app shows both readings, so you can follow the temperature difference across the element.
+
+### Pouring
+
+Keep the probes straight while pouring. The sensor logs every 15 minutes; open the app near the unit to sync the data.
+
+### Step 1: Get the App
+
+Search for “Proxigen” in the App Store (iOS) or Google Play (Android) and install the app.
+
+### Step 2: Log In
+
+Open the app. Log in if you already have an account, or sign up for a new one.
+
+### Step 3: Add a Project
+
+On the main screen, tap Projects, then Add Project. Fill in the required details and tap Save.
+
+### Step 4: Add a Section
+
+After creating the project, you are taken to Sections. Tap Add Section, enter the details and save.
+
+### Step 5: Add the Sensor
+
+Tap Add Sensor, select Scan QR Code and scan the QR code on the unit. Once it is registered, a Bluetooth icon appears.
+
+### Step 6: Connect
+
+Tap the large Bluetooth button and wait a few seconds. Once connected, you are taken to the Statistics screen.
+
+### Step 7: View Live Data
+
+The Statistics screen shows live temperature from the probe(s) and the body sensor. Tap Download for Excel or PDF reports.
+
+### Step 8: Share Reports
+
+Open the downloaded report on your phone, or share it straight away via WhatsApp or email.
+
+## Proxigen Cloud Dashboard
+
+Your data is also available in the Proxigen Cloud dashboard in a web browser, with an overview of projects, sections, sensors and reports, Excel and PDF downloads, and a form to request more hardware.
+
+## Troubleshooting
+
+### The App Does Not Find the Sensor
+
+Check that Bluetooth and Location are on, stay within 5–10 m of the unit, and make sure the sensor is switched on. Hold the button for 3 seconds; the LED gives one long flash.
+
+### The Connection Drops
+
+Move closer to the unit. If it is cast in, check that it is no deeper than 7.6 cm (3 in) below the surface.
+
+### No New Readings
+
+Open the app near the unit and connect to sync. The sensor logs every 15 minutes.
+
+## Support
+
+**Website:** proxigen.net
+
+**Phone:** +966 50 290 9157
+
+**Email:** info@proxigen.net
+
+**Phone:** +49 1577 6503645

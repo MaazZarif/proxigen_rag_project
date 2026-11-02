@@ -1,0 +1,206 @@
+[Skip to content](https://proxigen.net/products/#content)
+
+CONCRETE MONITORING DEVICES
+
+# Wireless Concrete Temperature Loggers
+
+Sensors that go into the pour and record every 15 minutes, from the first hour to the day you strip the forms. Switch on, scan the QR code, and the first temperature appears in the Proxigen app.
+
+[Talk to an Expert](https://proxigen.net/products/#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjU4NiIsInRvZ2dsZSI6ZmFsc2V9)
+
+[Compare sensors](https://proxigen.net/products/#compare)
+
+2.4 GHz RF
+
+Wireless link to the app
+
+15 min
+
+Reading interval
+
+~6 months
+
+Stored on the device
+
+![Proxigen CTM01 wireless concrete temperature sensor with probe cable](https://proxigen.net/wp-content/uploads/2026/01/ble_datalogger_close-1024x576.png)
+
+TWO SENSORS
+
+## Choose Your Sensor
+
+Both use the same app, cloud and one-button setup. The difference is how many points you measure.
+
+![Proxigen CTM01 concrete sensor installed on rebar during a concrete pour](https://proxigen.net/wp-content/uploads/2026/10/proxigen-ctm01-banner-1024x425.webp)
+
+## CTM01
+
+1 probe
+
+One probe for everyday pours: slabs, columns, walls and precast elements.
+
+- 1 probe: 30 cm or 3 m
+- Built-in body sensor + probe sensor
+- 2.4 GHz RF to the Proxigen app
+- About 6 months of readings on the device
+
+[View CTM01](https://proxigen.net/products/ctm01/)
+
+![Proxigen CTM02 two-probe concrete sensor on site during a concrete pour](https://proxigen.net/wp-content/uploads/2026/10/proxigen-ctm02-banner-1024x425.webp)
+
+## CTM02
+
+2 probes
+
+Two probes, top and bottom, to follow the temperature difference across thick pours.
+
+- 2 probes: 2 m and 3 m as standard
+- Top-to-bottom temperature difference
+- 2.4 GHz RF to the Proxigen app
+- About 6 months of readings on the device
+
+[View CTM02](https://proxigen.net/products/ctm02/)
+
+The maturity method
+
+## Concrete tells you how strong it is. _Through heat._
+
+01Pour02Heat03Strength04Ready
+
+**01** Pour0 hProbes go in _before the concrete._Tie the probe to the rebar at the point you care about, usually the core of the section. Switch the sensor on and it records a reading every 15 minutes.
+
+**02** Heatfirst 1 to 2 daysHydration _heats the core._Cement reacts with water and releases heat, usually peaking within the first day. With CTM02 you see the top and the bottom of the pour side by side.
+
+**03** Strengthday 2 to 4Heat × time = _maturity._The maturity method turns the temperature history into an estimate of in-place strength, so you depend less on waiting for cube results.
+
+**04** Readyday 4+Strip on data, _not the calendar._When the estimated strength reaches your target, plan formwork removal with the full temperature record to back the decision.
+
+Probe tied to rebarCTM01 recordingCore **18.0°C**Top vs bottom watchedMaturity rising**0.0 MPa** estimatedTarget strength reachedRecords saved in the cloud
+
+Age **0 h**
+
+Core temp **18.0°C**
+
+Strength **0.0 MPa**
+
+Illustrative curing curve. Real values depend on your mix and site conditions.
+
+COMPARE
+
+## Which Sensor Fits Your Pour?
+
+Same app, cloud and setup. Pick by the number of measuring points.
+
+CTM01
+
+CTM02
+
+Probes
+
+1
+
+2
+
+Standard probe length
+
+30 cm or 3 m
+
+2 m and 3 m
+
+Custom probe lengths
+
+On request
+
+On request
+
+Built-in body sensor
+
+Yes
+
+Yes
+
+Top-to-bottom difference
+
+No
+
+Yes
+
+Wireless
+
+2.4 GHz RF
+
+2.4 GHz RF
+
+Reading interval
+
+Every 15 minutes
+
+Every 15 minutes
+
+On-device storage
+
+About 6 months
+
+About 6 months
+
+Battery
+
+3.0 V
+
+3.0 V
+
+Downloads
+
+## Brochure and Technical Guide
+
+Two free PDFs for your team and your consultant. Both cover CTM01 and CTM02.
+
+[![Cover of the Proxigen Concrete Monitoring Brochure](https://proxigen.net/wp-content/uploads/2026/10/Proxigen_Concrete_Monitoring_Brochure-pdf-724x1024.jpg)Overview · 7 pagesProduct BrochureWhat we sell: the CTM01 and CTM02 sensors, how monitoring works from the pour to your phone, and the Proxigen app and cloud.Download PDF1.9 MB](https://proxigen.net/wp-content/uploads/2026/10/Proxigen_Concrete_Monitoring_Brochure.pdf) [![Cover of the Proxigen Setup and Technical Guide for CTM01 and CTM02](https://proxigen.net/wp-content/uploads/2026/10/Proxigen_Setup_Technical_Guide-pdf-724x1024.jpg)Technical · 10 pagesSetup & Technical GuideHow the device works: parts, technical specifications, installation in the concrete or on formwork, app setup and cloud dashboard.Download PDF1.5 MB](https://proxigen.net/wp-content/uploads/2026/10/Proxigen_Setup_Technical_Guide.pdf)
+
+SETUP
+
+## Same Setup for Both Sensors
+
+No pairing menus, no settings to change.
+
+01
+
+### Hold for 3 seconds
+
+Press and hold the button. One long flash confirms the device is on.
+
+02
+
+### Scan the QR code
+
+Open the Proxigen app and scan the QR code on the device.
+
+03
+
+### See the first reading
+
+The app connects on its own and shows the first temperature.
+
+## No Reading Gets Lost
+
+Both sensors record a reading every 15 minutes and keep about 6 months of data in their own memory. When the app connects, every stored reading is sent to Proxigen Cloud, so gaps between site visits never become gaps in your records.
+
+## Not Sure Which One You Need?
+
+Tell us about your pour and we will recommend the sensor and probe lengths.
+
+[Talk to an Expert](https://proxigen.net/products/#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjU4NiIsInRvZ2dsZSI6ZmFsc2V9)
+
+[Compare both sensors](https://proxigen.net/products/#compare)
+
+Scroll to Top
+
+### We value your privacy
+
+We use essential cookies to make our site work. With your consent, we also use analytics cookies to understand how visitors use proxigen.net and improve it.
+
+**Essential** Needed for the site to work. Always on.
+
+**Analytics** Google Analytics: anonymous visit statistics.
+
+**Marketing** Ad measurement and personalisation.
+
