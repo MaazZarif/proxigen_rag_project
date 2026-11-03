@@ -1,39 +1,34 @@
-
 from functools import lru_cache
 
-from sentence_transformers import SentenceTransformer
+import numpy as np
+from fastembed import TextEmbedding
 from langchain_core.embeddings import Embeddings
+
+
+MODEL_NAME = "nomic-ai/nomic-embed-text-v1.5"
+
+
+def _normalize(vector: np.ndarray) -> list[float]:
+    norm = np.linalg.norm(vector)
+    if norm > 0:
+        vector = vector / norm
+    return vector.tolist()
 
 
 class NomicEmbeddings(Embeddings):
 
     def __init__(self):
-        self.model = SentenceTransformer(
-            "nomic-ai/nomic-embed-text-v1.5",
-            trust_remote_code=True,
-        )
+        self.model = TextEmbedding(model_name=MODEL_NAME)
 
     def embed_documents(self, texts: list[str]) -> list[list[float]]:
         texts = [f"search_document: {text}" for text in texts]
 
-        embeddings = self.model.encode(
-            texts,
-            normalize_embeddings=True,
-            show_progress_bar=False,
-        )
-
-        return embeddings.tolist()
+        return [_normalize(v) for v in self.model.embed(texts)]
 
     def embed_query(self, text: str) -> list[float]:
         text = f"search_query: {text}"
 
-        embedding = self.model.encode(
-            text,
-            normalize_embeddings=True,
-            show_progress_bar=False,
-        )
-
-        return embedding.tolist()
+        return _normalize(next(iter(self.model.embed([text]))))
 
 
 @lru_cache(maxsize=1)
