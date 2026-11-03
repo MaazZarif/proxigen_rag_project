@@ -1,0 +1,69 @@
+# Run everything with:  docker compose up --build
+# Needs a .env file next to this one (copy .env.example and fill it in).
+
+services:
+  postgres:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: proxigen
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d proxigen"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:6333:6333"   # dashboard: http://localhost:6333/dashboard
+    volumes:
+      - qdrant_data:/qdrant/storage
+
+  backend:
+    build: .
+    restart: on-failure          # retries until Qdrant/Postgres are ready
+    depends_on:
+      postgres:
+        condition: service_healthy
+      qdrant:
+        condition: service_started
+    environment:
+      GROQ_API_KEY: ${GROQ_API_KEY:?Set GROQ_API_KEY in .env}
+      CHECKPOINT_DB_URL: postgresql://postgres:${POSTGRES_PASSWORD}@postgres:5432/proxigen
+      QDRANT_URL: http://qdrant:6333
+      QDRANT_COLLECTION_NAME: ${QDRANT_COLLECTION_NAME:-proxigen_knowledge}
+      # Optional LangSmith tracing (off by default)
+      LANGSMITH_TRACING: ${LANGSMITH_TRACING:-false}
+      LANGSMITH_API_KEY: ${LANGSMITH_API_KEY:-}
+      LANGSMITH_PROJECT: ${LANGSMITH_PROJECT:-proxigen-rag}
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - model_cache:/models      # AI models are downloaded once, then reused
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health')"]
+      interval: 15s
+      timeout: 5s
+      retries: 20
+      start_period: 300s         # first start downloads models
+
+  frontend:
+    image: nginx:alpine
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "127.0.0.1:5500:80"      # must be 5500: the API only allows this origin (CORS)
+    volumes:
+      - ./proxigen-chat-frontend:/usr/share/nginx/html:ro
+
+volumes:
+  postgres_data:
+  qdrant_data:
+  model_cache:
