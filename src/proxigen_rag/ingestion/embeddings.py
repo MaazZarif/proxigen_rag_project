@@ -4,11 +4,10 @@ import numpy as np
 from fastembed import TextEmbedding
 from langchain_core.embeddings import Embeddings
 
-
 MODEL_NAME = "nomic-ai/nomic-embed-text-v1.5"
 
 
-def _normalize(vector: np.ndarray) -> list[float]:
+def normalize(vector):
     norm = np.linalg.norm(vector)
     if norm > 0:
         vector = vector / norm
@@ -22,13 +21,11 @@ class NomicEmbeddings(Embeddings):
 
     def embed_documents(self, texts: list[str]) -> list[list[float]]:
         texts = [f"search_document: {text}" for text in texts]
-
-        return [_normalize(v) for v in self.model.embed(texts)]
+        return [normalize(v) for v in self.model.embed(texts)]
 
     def embed_query(self, text: str) -> list[float]:
         text = f"search_query: {text}"
-
-        return _normalize(next(iter(self.model.embed([text]))))
+        return normalize(next(iter(self.model.embed([text]))))
 
 
 @lru_cache(maxsize=1)
