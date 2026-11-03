@@ -12,3 +12,4 @@ wheels/
 evaluation/
 test.py
 test_graph.py
+raw_data/
