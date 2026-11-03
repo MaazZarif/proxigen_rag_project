@@ -11,12 +11,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-@lru_cache(maxsize=1)
-def get_ollama_llm():
-   return ChatOllama(
-        model="qwen3:4b",
-        temperature=0,
-    )
 
 @lru_cache(maxsize=1)
 def get_groq_llm():
